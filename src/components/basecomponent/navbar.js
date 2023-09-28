@@ -1,20 +1,48 @@
 import React from 'react';
 import logo from '../images/dkLogo.png';
-import { Collapse } from 'flowbite';
+// import { Collapse } from 'flowbite';
 
 function Navbar() {
     return  (   
         <nav className="bg-gradient-to-r from-translightpurple via-baselightpurple to-baselightpurple">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto gap-y-2 p-4">
-                <a href="/" className="flex items-center">
+                <a href="/" className="flex items-center order-2 md:order-none">
                     <img src={logo} className="h-8 mr-3" alt="dkLogo" />
                 </a>
-                <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-ultradarkpurple rounded-lg md:hidden hover:bg-translightpurple" aria-controls="navbar-default" aria-expanded="false">
-                    <span className="sr-only">Open main menu</span>
-                    <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
-                    </svg>
-                </button>
+                <div class="dropdown h-full md:hidden">
+                    <div className='relative'>
+                        <label tabindex="0" class="btn btn-ghost h-full text-ultradarkpurple">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 16 16"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                            </svg>
+                        </label>
+                        <div className='dropdown-content z-[1]'>
+                            <ul tabindex="0" class="text-start text-ultradarkpurple rounded-md text-lg mt-6 px-6 py-4 w-[200px] bg-translightpurple ">
+                                <li>
+                                    <a href="/">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/CV">
+                                        CV
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/showcase">
+                                        Showcase
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/contact">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
                 <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                     <ul className="font-medium text-lg flex flex-col p-4 md:p-0 mt-0 rounded-lg md:flex-row md:space-x-8">
                         <li>
