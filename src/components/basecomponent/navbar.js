@@ -33,7 +33,7 @@ function Navbar() {
                             </a>
                         </li>
                         <li>
-                            <a href="/contact" className="block py-2 pl-1 pr-6 hover:text-white text-ultradarkpurple">
+                            <a href="/contact" className="block py-2 pl-1 pr-6 hover:text-white duration-150 text-ultradarkpurple">
                                 Contact
                             </a>
                         </li>
