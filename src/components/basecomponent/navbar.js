@@ -28,13 +28,13 @@ function Navbar() {
                             </a>
                         </li>
                         <li>
-                            <a href="/contact" className="block py-2 pl-1 pr-6 hover:text-white text-ultradarkpurple">
-                                Contact
+                            <a href="/showcase" className="block py-2 pl-1 pr-6 hover:text-white text-ultradarkpurple">
+                                Showcase
                             </a>
                         </li>
                         <li>
-                            <a href="/showcase" className="block py-2 pl-1 pr-6 hover:text-white text-ultradarkpurple">
-                                Showcase
+                            <a href="/contact" className="block py-2 pl-1 pr-6 hover:text-white text-ultradarkpurple">
+                                Contact
                             </a>
                         </li>
                     </ul>
