@@ -1,0 +1,84 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ececec;
+}
+
+#main {
+  width: 20%;
+  height: 55vh;
+  margin: 0 auto;
+  margin-top: 10vh;
+  cursor: pointer;
+  background-color: white;
+  flex-wrap: wrap;
+  display: flex;
+  border-radius: 2%;
+  padding: 2%;
+  margin-left: 37%;
+}
+
+#divje {
+  display: flex;
+  flex-direction: row;
+}
+
+#score {
+  height: min-content;
+  overflow: hidden;
+  width: 12%;
+  background-color: white;
+  margin-top: 10vh;
+  margin-right: 5%;
+  padding: 2%;
+  border-radius: 2%;
+}
+
+.colorblock {
+  width: 31.3333%;
+  height: 15%;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+  border-radius: 5%;
+  margin: 1%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.colorblock:hover {
+  transform: scale(1.1);
+}
+
+#mainblock {
+  text-align: center;
+  width: 98%;
+  height: 15%;
+  border-radius: 5%;
+  margin: 1%;
+}
+
+#stop {
+  background-color: red;
+  height: 15%;
+  width: 45%;
+  text-align: center;
+  line-height: 8.2vh;
+  font-size: 3vh;
+  border-radius: 5%;
+  font-weight: 550;
+  margin: 2.5%;
+}
+
+#start {
+  background-color: green;
+  height: 15%;
+  width: 45%;
+  text-align: center;
+  line-height: 8.2vh;
+  font-size: 3vh;
+  border-radius: 5%;
+  font-weight: 550;
+  margin: 2.5%;
+}

@@ -1,0 +1,64 @@
+#Left{
+    background-color: #3CBED1;
+    overflow:hidden;
+    transition: 1s;
+}
+#Right{
+    background-color:#ABD6D6;
+    overflow: hidden;
+    transition: 1s;
+}
+#lTxt{
+    padding: 5vh;
+}
+#rTxt{
+    padding: 5vh;
+}
+#fSwipeClick{
+    width: 6vh;
+    background-color:#1C8797;
+    text-align: center;
+}
+#container{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.open{
+    flex:1;
+}
+.close{
+    flex:0;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#mainmain{
+    display: flex;
+    flex-direction: row;
+    height: 73vh;
+}
+#mainmain a {
+    float: left;
+    color: black;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 1vh 2vh;
+    border: 0.3vh;
+    border-radius: 0.5vh;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 1.7vh;
+}
+#mainmain a.right {
+    float: right;
+}
+#mainmain a:hover {
+    background-color: #192982;
+    color: whitesmoke;
+    transform: scale(1.1);
+}
