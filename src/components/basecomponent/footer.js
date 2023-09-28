@@ -14,9 +14,10 @@ function Footer() {
                         <h2 className="mb-4 md:text-[14px] font-semibold text-ultradarkpurple">E-mail</h2>
                         <ul className="text-ultradarkpurple font-medium">
                             <li>
-                                douwiaan@gmail.com<br />
+                                <a href='mailto:douwiaan@gmail.com'>douwiaan@gmail.com</a>
+                                <br />
                                 of<br />
-                                97087647@st.deltion.nl
+                                <a href='mailto:97087647@st.deltion.nl'>97087647@st.deltion.nl</a>
                             </li>
                         </ul>
                     </div>
@@ -24,7 +25,7 @@ function Footer() {
                         <h2 className="mb-4 md:text-[14px] font-semibold text-ultradarkpurple">Telefoon</h2>
                         <ul className="text-ultradarkpurple font-medium">
                             <li>
-                                (+31) 06 33 86 18 66
+                                <a href="tel:+310633861866">(+31) 06 33 86 18 66</a>
                             </li>
                         </ul>
                     </div>
