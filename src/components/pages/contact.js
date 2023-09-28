@@ -19,6 +19,7 @@ function Contact() {
                         <Phone2 />
                     </div>
                 </div>
+                <p className='mt-4 text-xs'>*Ik ben geen UX designer</p>
                 <Spacer />
             </div>
         </>
