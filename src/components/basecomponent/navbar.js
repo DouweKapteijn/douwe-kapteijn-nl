@@ -18,17 +18,17 @@ function Navbar() {
                 <div className="hidden w-full md:block md:w-auto" id="navbar-default">
                     <ul className="font-medium text-lg flex flex-col p-4 md:p-0 mt-0 rounded-lg md:flex-row md:space-x-8">
                         <li>
-                            <a href="/" className="block py-2 pl-1 pr-6 hover:text-white text-ultradarkpurple">
+                            <a href="/" className="block py-2 pl-1 pr-6 hover:text-white duration-150 text-ultradarkpurple">
                                 Home
                             </a>
                         </li>
                         <li>
-                            <a href="/CV" className="block py-2 pl-1 pr-6 hover:text-white text-ultradarkpurple">
+                            <a href="/CV" className="block py-2 pl-1 pr-6 hover:text-white duration-150 text-ultradarkpurple">
                                 CV
                             </a>
                         </li>
                         <li>
-                            <a href="/showcase" className="block py-2 pl-1 pr-6 hover:text-white text-ultradarkpurple">
+                            <a href="/showcase" className="block py-2 pl-1 pr-6 hover:text-white duration-150 text-ultradarkpurple">
                                 Showcase
                             </a>
                         </li>
