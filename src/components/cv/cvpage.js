@@ -89,7 +89,7 @@ function Home() {
             <div>
                 <h2 className='text-xl font-semibold'>Taalkennis</h2>
                 <br />
-                <p className='text-medium pl-2'>Nederlands en Engels, allebij op erg goed niveau.</p>
+                <p className='text-medium pl-2'>Nederlands en Engels, allebei op goed niveau.</p>
                 <br />
                 <p className='text-medium pl-2'>Duits, een kort en simpel gesprek.</p>
                 <br />
