@@ -11,10 +11,8 @@ function Homehero() {
                     <img className='mx-auto' src={Devpic} alt="mockup" />
                 </div>  
                 <div className="order-1 lg:order-2 mx-auto place-self-center lg:col-span-7">
-                    <h1 className="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl text-ultradarkpurple">
-                        {/* Douwe Kapteijn. Development zonder limiet. */}
+                    <h1 className="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl bg-clip-text text-transparent bg-gradient-to-t from-ultradarkpurple via-[70%] via-purple to-purple">
                         <Typewriter
-
                             onInit={(typewriter) => {
                                 typewriter
                                     .typeString("Douwe Kapteijn.")

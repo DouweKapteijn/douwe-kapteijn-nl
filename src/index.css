@@ -16,3 +16,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Typewriter{
+  @apply min-h-[50px] md:h-[48px] xl:h-[64px];
+}
+.Typewriter__cursor{
+  @apply bg-clip-text text-transparent bg-gradient-to-t from-ultradarkpurple via-[70%] via-purple to-purple;
+}
