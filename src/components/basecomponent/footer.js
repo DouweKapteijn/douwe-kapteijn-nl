@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/dkLogo.png';
+import logo from '../images/dkLogo.webp';
 
 function Footer() {
     return  (
@@ -7,7 +7,7 @@ function Footer() {
             <div className="mx-auto w-full max-w-screen-xl p-4 py-5 lg:py-6">
                 <div className="md:flex md:justify-between">
                 <div className="mb-6 md:mb-0">
-                    <img src={logo} className="h-8 mr-3" alt="FlowBite Logo" />
+                    <img src={logo} height={1000} width={1000} className="h-8 w-8 mr-3" alt="Logo" />
                 </div>
                 <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2 text-[12px] sm:text-[14px] md:text-[16px]">
                     <div>

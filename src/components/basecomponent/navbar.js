@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/dkLogo.png';
+import logo from '../images/dkLogo.webp';
 // import { Collapse } from 'flowbite';
 
 function Navbar() {
@@ -7,18 +7,18 @@ function Navbar() {
         <nav className="bg-gradient-to-r from-translightpurple via-baselightpurple to-baselightpurple">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto gap-y-2 p-4">
                 <a href="/" className="flex items-center order-2 md:order-none">
-                    <img src={logo} className="h-8 mr-3" alt="dkLogo" />
+                    <img src={logo} height={1000} width={1000} className="h-8 w-8 mr-3" alt="dkLogo" />
                 </a>
-                <div class="dropdown h-full md:hidden">
+                <div className="dropdown h-full md:hidden">
                     <div className='relative'>
-                        <label tabindex="0" class="btn btn-ghost h-full text-ultradarkpurple">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 16 16"
+                        <label tabIndex="0" className="btn btn-ghost h-full text-ultradarkpurple">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 16 16"
                                 stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15" />
                             </svg>
                         </label>
                         <div className='dropdown-content z-[1]'>
-                            <ul tabindex="0" class="text-start text-ultradarkpurple rounded-md text-lg mt-6 px-6 py-4 w-[200px] bg-translightpurple ">
+                            <ul tabIndex="0" className="text-start text-ultradarkpurple rounded-md text-lg mt-6 px-6 py-4 w-[200px] bg-translightpurple ">
                                 <li>
                                     <a href="/">
                                         Home

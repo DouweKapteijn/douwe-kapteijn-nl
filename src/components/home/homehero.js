@@ -1,5 +1,5 @@
 import React from 'react'
-import Devpic from '../images/dev.png'
+import Devpic from '../images/dev.webp'
 import Typewriter from 'typewriter-effect';
 
 function Homehero() {
@@ -8,7 +8,7 @@ function Homehero() {
         <section className="bg-transparent">
             <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                 <div className="order-2 lg:order-1 lg:mt-0 lg:col-span-5 flex">
-                    <img className='mx-auto' src={Devpic} alt="mockup" />
+                    <img className='mx-auto' height={1000} width={1000} src={Devpic} alt="mockup" />
                 </div>  
                 <div className="order-1 lg:order-2 mx-auto place-self-center lg:col-span-7">
                     <h1 className="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl bg-clip-text text-transparent bg-gradient-to-t from-ultradarkpurple via-[70%] via-purple to-purple">
