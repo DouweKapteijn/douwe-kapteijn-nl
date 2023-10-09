@@ -9,6 +9,14 @@ function Contact() {
                     <h1 className='sm:text-6xl text-4xl font-bold text-ultradarkpurple'>
                         Waar werk ik mee?
                     </h1>
+                    <p className="max-w-3xl mx-auto font-[350] lg:my-8 my-5 text-lg md:text-xl text-gray-600">
+                        Deze website is gemaakt met een React frontend, met TailwindCSS als css framework. Er zitten ook packages in van DaisyUI en TypewriterJS.
+                        <br />
+                        Met deze website heb ik vooral op de SEO en lighthouse score gelet, maar ook veel op responsiveness.
+                    </p>
+                    <h2 className='sm:text-6xl text-4xl font-bold text-ultradarkpurple'>
+                        Alle middelen waarmee ik werk
+                    </h2>
                     <Spacer />
                     <div className="hidden rounded-box md:grid grid-cols-6 lg:gap-8 gap-4 px-16">
                         <div className="flex flex-col lg:gap-8 gap-4">
