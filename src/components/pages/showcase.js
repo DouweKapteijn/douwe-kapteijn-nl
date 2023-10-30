@@ -2,7 +2,7 @@ import React from 'react';
 import Spacer from '../basecomponent/spacer.js';
 import ShowcasePage from '../showcase/showcasepage.js';
 
-function Home() {
+function Showcase() {
     return  (
         <>
             <div className='min-h-screen'>
@@ -14,4 +14,4 @@ function Home() {
     )
 }
 
-export default Home;
+export default Showcase;
